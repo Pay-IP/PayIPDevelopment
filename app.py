@@ -22,6 +22,8 @@ image = Image.open('payip.png')
 
 uploaded_file = st.file_uploader("Upload a CSV, XLSX, or TXT File", type=["csv", "xlsx", "txt"])
 
+print("hi")
+
 df = None  # Initialize df as None
 
 if uploaded_file is not None:
